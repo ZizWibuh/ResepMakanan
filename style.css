@@ -60,25 +60,39 @@ body {
 }
 
 .content-title p {
+    margin-top: 150px;
+    margin-right: 250px;
     text-align:  center;
+    font-size: larger;;
 }
 
 .content-title img {
-    width: 50%;
+    width: 35%;
 }
 
 .content-material {
     margin-left:  50px;
     margin-bottom: 50px;
+    display: flex;
+}
+
+.content-material-title {
+    margin-top: 20px;
 }
 
 .content-material-step {
+    margin-top: 20px;
     list-style-type:  none;
 }
 
 .content-step {
     margin-left: 50px;
     margin-bottom: 50px;
+    display: flex;
+}
+
+.content-fill-step{
+    margin-top: 20px;
 }
 
 .content-fill-step  li{
